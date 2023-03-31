@@ -1,0 +1,195 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#F172A1;
+    height: 1500px;
+    background-image: url("https://vignette.wikia.nocookie.net/gravityfalls/images/4/4e/S2e5_Paul_Robertson_cherry_blossoms.gif/revision/20141010224313");
+    background-size:cover;
+  }
+  
+  /* navigation bar, home, */
+  .navbar {
+    width: 100%;
+    background-color: #A1C3D1;
+    background-image: linear-gradient(to bottom right, rgb(161, 243, 202),rgb(154, 230, 147), rgb(185, 255, 220),rgb(93, 231, 167));
+    overflow: auto;
+    margin-bottom: 4rem;
+  }
+  
+  .navbar a {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .navbar a:hover {
+    background-color: #ffffff;
+  }
+  
+  /* HOMEBODY, hi im jet ,etc.*/
+  
+  .homebody {
+    background-image: url("https://i2.pickpik.com/photos/578/881/272/watercolor-peach-background-pink-preview.jpg");
+    background-size: cover;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 4rem;
+    width: 700px;
+    border: 15px solid #FF4742;
+    padding: 50px;
+    margin: auto;
+  }
+  
+  .homebody a {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  
+  }
+  
+  /* katong button sa home page [about me,etc.] */
+  .button-home {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .homebody a:hover,
+  .homebody a:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  .column {
+    background-color: #a1d1bf;
+    background-image: linear-gradient(to bottom right, rgb(161, 243, 175),rgb(147, 230, 179), rgb(185, 255, 214),rgb(93, 231, 134));
+    background-size: cover;
+    border: 5px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+    .picz {
+        transition:transform 0.25s ease;
+    }
+    
+    .picz:hover {
+        -webkit-transform:scale(3.5); 
+        transform:scale(3.5);
+    }
+
+  
+  
+  .homebody a:active {
+    opacity: .5;
+  }
+  
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FF4742;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h2{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1rem;
+  }
+  .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 20px;
+    font-size: 15px;
+    color: #cacdd2;
+  }
+  
+  
